@@ -44,6 +44,11 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip install -r requirements.txt
+    
+    # Set env variables
+    - name: Set env variables for images
+      run: |
+        env EXCLUDE_FORKED_REPOS=true  
 
     # Generate all statistics images
     - name: Generate images
