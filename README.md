@@ -2,7 +2,6 @@
 
 <a href="https://github.com/jstrieb/github-stats">
 
-![](https://github.com/Quantalabs/github-stats/blob/master/generated/overview.svg)
 ![](https://github.com/Quantalabs/github-stats/blob/master/generated/languages.svg)
 
 </a>
